@@ -1,18 +1,21 @@
 // Unfortunately it appears that it's impossible to enable ESBuild's
 // --jsx=automatic mode (https://esbuild.github.io/content-types/#auto-import-for-jsx)
 // via Hugo Pipes. So we'll have to remember to manually import React
-import React from "react";
-
 import { createRoot } from "react-dom/client";
+import React from "react";
+import MyExampleComponent from "./MyExampleComponent";
+import AnotherComponent from "./AnotherComponent";
 
-export function HelloWorld() {
-  return <div>Hello world</div>;
-}
+const exampleComponent = document.querySelectorAll(".my-component-root");
 
-// Check if there is a React root element on the page, and if so render the
-// component into it
-const reactRootEl = document.getElementById("react-root");
-if (reactRootEl) {
-  const root = createRoot(reactRootEl);
-  root.render(<HelloWorld />);
-}
+exampleComponent.forEach((instance) => {
+  const data = JSON.parse(instance.getAttribute("data-props"));
+  createRoot(instance).render(<MyExampleComponent data={data} />);
+});
+
+const anotherComponent = document.querySelectorAll(".another-component-root");
+
+anotherComponent.forEach((instance) => {
+  const data = JSON.parse(instance.getAttribute("data-props"));
+  createRoot(instance).render(<AnotherComponent data={data} />);
+});
