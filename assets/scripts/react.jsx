@@ -9,10 +9,7 @@ export function HelloWorld() {
   return <div>Hello world</div>;
 }
 
-// Check if there is a React root element on the page, and if so render the
-// component into it
-const reactRootEl = document.getElementById("react-root");
-if (reactRootEl) {
-  const root = createRoot(reactRootEl);
+window.__CYF_renderHelloWorld = function renderHelloWorld(selector) {
+  const root = createRoot(document.getElementById(selector));
   root.render(<HelloWorld />);
-}
+};
