@@ -1,0 +1,10 @@
+<div id="react-root"></div>
+<script type="module">
+  import React from 'https://unpkg.com/react@18/umd/react.development.js'
+  import ReactDOM from 'https://unpkg.com/react@18/umd/react.development.js'
+
+  // Using JSX here causes a crash, because it's not processed by ESBuild
+  function Foo() {
+    return <div>Test</div>
+  }
+</script>
