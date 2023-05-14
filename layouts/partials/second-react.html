@@ -1,0 +1,5 @@
+{{ $uniqueID := now.UnixNano | string | md5 }}
+<div
+  id="another-component-root-{{ $uniqueID }}"
+  class="another-component-root"
+  data-props="{{ .Data | jsonify }}"></div>
