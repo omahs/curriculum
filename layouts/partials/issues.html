@@ -27,10 +27,13 @@
         <details class="c-issue">
           <summary class="c-issue__title e-heading__3">
             {{ .title }} <a class="c-issue__link" href="{{ .html_url }}">🔗</a>
+            {{ partial "example-react.html" (dict "Data" .labels ) }}
+            {{ partial "second-react.html" (dict "Data" .labels ) }}
           </summary>
           <div class="c-issue__body">{{ .body | markdownify }}</div>
         </details>
         {{ with .labels }}
+
           <ul class="c-issue__labels">
             {{ range . }}
               <li class="c-issue__label" style="--github:#{{ .color }}4d">
