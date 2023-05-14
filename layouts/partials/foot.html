@@ -34,5 +34,7 @@
 </footer>
 {{ $scripts := resources.Get "scripts/app.js" | resources.Minify }}
 {{ $menuButton := resources.Get "scripts/random-emoji.js" | resources.Minify }}
+{{ $react := resources.Get "scripts/react.jsx" | js.Build }}
 <script src="{{ $scripts.Permalink }}" defer></script>
 <script src="{{ $menuButton.Permalink }}"></script>
+<script src="{{ $react.Permalink }}"></script>
