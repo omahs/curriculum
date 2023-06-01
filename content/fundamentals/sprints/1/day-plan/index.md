@@ -10,7 +10,11 @@ backlog_filter= 'Week 1'
 [[blocks]]
 name="energiser"
 [[blocks]]
-name="pd-placeholder"
+name="Introduction to Professional Development"
+scr="https://github.com/CodeYourFuture/CYF-PD/tree/main/content/blocks/fundamentals-test"
+[[blocks]]
+name="Let's talk Code of Conduct"
+scr="https://github.com/CodeYourFuture/CYF-PD/tree/main/content/blocks/lets-talk-about-our-code-of-conduct"
 [[blocks]]
 name="morning-break"
 [[blocks]]
