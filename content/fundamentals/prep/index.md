@@ -7,6 +7,12 @@ menu_level = ["module"]
 weight = 1
 backlog= "Course-Fundamentals"
 [[blocks]]
+name="Read and sign CYF agreements"
+src="https://cyf-pd.netlify.app/blocks/agreements/readme/"
+[[blocks]]
+name="Childcare expenses"
+src="https://cyf-pd.netlify.app/blocks/childcare-expenses/readme/"
+[[blocks]]
 name="Fork your Planner"
 src="https://www.youtube.com/watch?v=cnx0RuAu2tc"
 [[blocks]]
@@ -24,24 +30,30 @@ name="Backlog"
 
 ## Getting Started
 
-To get started on the prep work, you will need to sign up to Github, get your planner set up and start working through the assignments of week 0. You should do this as soon as you are invited to the course, even if the start date is some time away.
+To get started on the prep work, you will need to sign up to GitHub, get your planner set up and start working through the assignments of week 0. You should do this as soon as you are invited to the course, even if the start date is some time away.
 
-### Github
+### GitHub
 
-Github is for developers. It's how you will work on code with other developers and where you will build a portfolio of work to show employers. You should already have a Github account from the application process. If you don’t, make one now.
+GitHub is for developers. It's how you will work on code with other developers and where you will build a portfolio of work to show employers. You should already have a GitHub account from the application process. If you don’t, make one now.
 
-- [ ] I have made a Github account.
+- [ ] I have made a GitHub account.
 - [ ] I have used my real name.
 - [ ] I have not put my birth year in my user name.
 
 {{<note type="tip" title="Use your name">}}
-Your Github account name should look something like this: https://github.com/SallyMcGrath
+Your GitHub account name should look something like this: https://github.com/SallyMcGrath
 {{</note>}}
 
-When prospective employers are looking at your Github portfolio, **you need them to know who you are**: not your online identity, but the name you put on your job application. Don’t use cute handles on your Github, even though some mentors do. They are not applying for entry level developer roles.
+{{<note type="info" title="Real Name" >}}
+CYF recognises you may need to keep your birth name private. When we say real name, we mean the name you go by. It does not have to match your birth certificate or any other legal document. It has to be consistent and professional.
+{{</note>}}
+
+When prospective employers are looking at your GitHub portfolio, **you need them to know who you are**: not your online identity, but the name you put on your job application. Don’t use cute handles on your GitHub, even though some mentors do. They are not applying for entry level developer roles.
+
+Watch [What is GitHub](#prep-1)
 {{% /tab %}}
 
-{{<tab name="What is GitHub">}}
+{{<tab name="📼 Watch: What is GitHub">}}
 {{% youtube %}}https://www.youtube.com/watch?v=pBy1zgt0XPc{{% /youtube %}}
 {{</tab>}}
 

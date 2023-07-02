@@ -14,7 +14,7 @@ emoji= '🧩'
 Now we have started to think about the idea of MVP, how can we use this to help us build _working_ software?
 
 {{<note type="tip" title="Tip">}}
-It's important that software _works_ and that we can _use_ it!
+It's important that software _works_ and that we _and other people_ can _use_ it!
 {{</note>}}
 
 In software development, we start with the smallest, simplest thing we can build _that works_. Then we _incrementally_ improve it. This is **iteration**.
@@ -28,7 +28,7 @@ In pairs, define some user stories for your own websites, to improve it. These s
 - a small change
 - that is achievable with the CYF Blocks seen in the course so far
 - but a complete feature
-- try for at least one feature that updates or changes the page when an action is taken
+- try for at least one feature that updates or changes the page when an action is taken (e.g. clicking when a button)
 
 {{</note>}}
 
