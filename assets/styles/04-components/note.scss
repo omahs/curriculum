@@ -67,6 +67,9 @@
   &--tip {
     background: var(--theme-color--accent-shade);
   }
+  &--warning {
+    background: var(--theme-color--brand-shade);
+  }
   &--glossary {
     background: none;
     box-shadow: none;
